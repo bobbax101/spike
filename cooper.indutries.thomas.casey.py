@@ -44,10 +44,10 @@ if choice is 'r':
                 choice=str((input('fight - type f run - type r: ')))
             elif choice is 'c':
                 print('you try to call out but you cannot speak and you die a sad death')
-                choice=str((input('fight - type f; run - type r: ')))
+                choice=str((input('fight again - type fa; run - type r: ')))
                 if choice is 'r':
                     print('you run into a wall and die')
-                elif choice is 'f':
+                elif choice is 'fa':
                     print('you trip the man up and he falls into a wall')
                     time.sleep(0.5)
                     print('you see the blood spill and realise he is dead')
